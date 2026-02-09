@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const activities = await response.json();
 
       // Clear loading message
-      activitiesList.innerHTML = "";
+      activitiesList.innerHTML = ""; 
 
       // Populate activities list
       Object.entries(activities).forEach(([name, details]) => {
